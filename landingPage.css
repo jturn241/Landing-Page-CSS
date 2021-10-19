@@ -1,0 +1,166 @@
+* {
+  /*border: solid 1px red;*/
+}
+
+body, html{
+    height: 100vh;
+    margin: 0;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+header, footer {
+    background-color: #1F2937;
+}
+
+.leftBox h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+.header, .boxOne {
+    padding: 0 300px 0 300px;
+}
+
+header img {
+    width: 75px;
+    height: auto;
+    padding: 20px 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerList {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: flex-end;
+    color: lightgray;
+    gap: 20px;
+    font-size: 12px;
+}
+
+.boxOne {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: #1F2937;
+    padding-bottom: 20px;
+}
+
+.signUp {
+    width: 100px;
+    height: 25px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 2px;
+    border: none;
+}
+
+.leftBox {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    flex-wrap: wrap;
+    width: 30%;
+}
+
+.rightBox img{
+    display: flex;
+    width: 350px;
+    height: 200px;
+}
+
+.paraOne {
+    color: #afb1ad;
+}
+
+.boxTwo {
+    display:flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.imgBoxes {
+    display: flex;
+    justify-content: center;
+}
+
+.imgBoxes div {
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+.imgBoxes p {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+.imgBox {
+    border: 2px solid #3882F6;
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+}
+
+.randomQuote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+}
+
+.action {
+    display: flex;
+    background-color: #3882F6; 
+    margin: 0 300px 0 300px;
+    justify-content: space-around;
+    border-radius: 5px;
+    margin-top: 25px;
+    padding: 10px 0 10px 0;
+    color: #F9FAF8;
+}
+
+.actionLeft p, .randomQuote p{
+    margin-top: 0;
+}
+
+.actionLeft h3, .randomQuote h2{
+    margin-bottom: 0;
+}
+
+
+.actionRight {
+    display: flex;
+    align-items: center;
+}
+
+.upNow {
+    background-color: #3882F6;
+    border: solid 1px white;
+    color: #F9FAF8; 
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+}
+
+footer {
+    color: lightgray;
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    flex: 1 1 auto;
+    margin-top: 15px;
+}
